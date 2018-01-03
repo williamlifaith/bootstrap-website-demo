@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" class="stylesheet">
+    <title>Modern browser museum</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Modern browser museum</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Summary <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Briefly</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#nav-chrome">Chrome</a>
+                        <a class="dropdown-item" href="#nav-firefox">Firefox</a>
+                        <a class="dropdown-item" href="#nav-opera">Opera</a>
+                        <!--<div class="dropdown-divider"></div>-->
+                        <a class="dropdown-item" href="#nav-safari">Safari</a>
+                        <a class="dropdown-item" href="#nav-ie">IE</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">About</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/chrome-big.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Chrome</h5>
+                <p>Google Chrome,is a freeware web browser developed by Google.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="https://www.google.com/chrome/browser/desktop/index.html"
+                      role="button" target="_blank">Download</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/firefox-big.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Firefox</h5>
+                <p>Mozilla Firefox is a free and open-source web browser developed by Mozilla Foundation and its
+                    subsidiary, Mozilla Corporation.</p>
+                <p><a class="btn btn-lg btn-primary" href="https://www.mozilla.org/en-US/firefox/new/"
+                      role="button" target="_blank">Download</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/ie-big.jpg" alt="Fifth slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>IE</h5>
+                <p>GInternet Explorer is a series of graphical web browsers developed by Microsoft and included in the
+                    Microsoft Windows line of operating systems, starting in 1995.</p>
+                <p><a class="btn btn-lg btn-primary"
+                      href="https://www.microsoft.com/en-us/download/internet-explorer.aspx"
+                      role="button" target="_blank">Download</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/safari-big.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Safari</h5>
+                <p>Safari is a web browser developed by Apple based on the WebKit engine. </p>
+                <p><a class="btn btn-lg btn-primary" href="https://support.apple.com/en_GB/downloads/safari"
+                      role="button" target="_blank">Download</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/opera-big.jpg" alt="Forth slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Opera</h5>
+                <p>Opera is a web browser for Windows, macOS, and Linux operating systems developed by Opera Software.
+                    It uses the Blink layout engine.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="http://www.opera.com/zh-cn/download"
+                      role="button" target="_blank">Download</a></p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm">
+            <img src="images/chrome-logo-small.jpg" alt="Chrome">
+            <h5>Chrome</h5>
+            <p>Google Chrome,is a freeware web browser developed by Google.
+            </p>
+            <p>
+                <a class="btn btn-light" href="https://www.google.com/chrome/browser/desktop/index.html"
+                   role="button">Download</a>
+            </p>
+        </div>
+        <div class="col-sm">
+            <img src="images/firefox-logo-small.jpg" alt="Firefox">
+            <h5>Firefox</h5>
+            <p>Firefox is an open-source web browser developed by
+                ozilla Corporation.
+            </p>
+            <p>
+                <a class="btn btn-light" href="https://www.mozilla.org/en-US/firefox/new/"
+                   role="button">Download
+                </a>
+            </p>
+        </div>
+        <div class="col-sm">
+            <img src="images/safari-logo-small.jpg" alt="Third slide">
+            <h5>Safari</h5>
+            <p>Safari is a web browser developed by Apple based on the WebKit engine.
+            </p>
+            <p><a class="btn btn-light" href="https://support.apple.com/en_GB/downloads/safari"
+                  role="button">Download</a>
+            </p>
+        </div>
+    </div>
+    <hr class="divider">
+</div>
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-chrome-tab" data-toggle="tab" href="#nav-chrome" role="tab"
+           aria-controls="nav-chrome" aria-selected="true">Chrome</a>
+        <a class="nav-item nav-link" id="nav-firefox-tab" data-toggle="tab" href="#nav-firefox" role="tab"
+           aria-controls="nav-firefox" aria-selected="false">Firefox</a>
+        <a class="nav-item nav-link" id="nav-safari-tab" data-toggle="tab" href="#nav-safari" role="tab"
+           aria-controls="nav-safari" aria-selected="false">Safari</a>
+        <a class="nav-item nav-link" id="nav-opera-tab" data-toggle="tab" href="#nav-opera" role="tab"
+           aria-controls="nav-opera" aria-selected="false">Opera</a>
+        <a class="nav-item nav-link" id="nav-ie-tab" data-toggle="tab" href="#nav-ie" role="tab" aria-controls="nav-ie"
+           aria-selected="false">IE</a>
+    </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-chrome" role="tabpanel" aria-labelledby="nav-chrome-tab">
+        <div class="row feature">
+            <div class="col-md-7">
+
+                <h2 class="feature-heading">Google Chrome <span
+                        class="text-muted">使用最广的浏览器</span></h2>
+
+                <p class="lead">Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。
+                    该浏览器是基于其他开源软件所撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。</p>
+            </div>
+            <div class="col-md-5">
+                <img class="feature-image img-fluid" src="images/chrome-logo.jpg"
+                     alt="Chrome">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-firefox" role="tabpanel" aria-labelledby="nav-firefox-tab">
+        <div class="row feature">
+            <div class="col-md-5">
+                <img class="feature-image img-fluid" src="images/firefox-logo.jpg"
+                     alt="Firefox">
+            </div>
+            <div class="col-md-7">
+
+                <h2 class="feature-heading">Mozilla Firefox <span class="text-muted">美丽的狐狸</span>
+                </h2>
+
+                <p class="lead">Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器，
+                    使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-safari" role="tabpanel" aria-labelledby="nav-safari-tab">
+        <div class="row feature">
+            <div class="col-md-7">
+
+                <h2 class="feature-heading">Safari <span class="text-muted">Mac用户首选</span></h2>
+
+                <p class="lead">Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。
+                    Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</p>
+            </div>
+            <div class="col-md-5">
+                <img class="feature-image img-fluid" src="images/safari-logo.jpg"
+                     alt="Safari">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-opera" role="tabpanel" aria-labelledby="nav-opera-tab">
+        <div class="row feature">
+            <div class="col-md-5">
+                <img class="feature-image img-fluid" src="images/opera-logo.jpg"
+                     alt="Opera">
+            </div>
+            <div class="col-md-7">
+
+                <h2 class="feature-heading">Opera <span class="text-muted">小众但易用</span>
+                </h2>
+
+                <p class="lead">Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。
+                    是跨平台浏览器可以在Windows、Mac和Linux三个操作系统平台上运行。.</p>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-ie" role="tabpanel" aria-labelledby="nav-ie-tab">
+        <div class="row feature">
+            <div class="col-md-7">
+
+                <h2 class="feature-heading">IE <span class="text-muted">你懂的</span></h2>
+
+                <p class="lead">Internet Explorer，原称Microsoft Internet Explorer(6版本以前)和Windows Internet
+                    Explorer(7，8，9，10版本)，
+                    简称IE，是美国微软公司推出的一款网页浏览器。它采用的排版引擎(俗称内核)为Trident.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="feature-image img-fluid" src="images/ie-logo.jpg"
+                     alt="IE">
+            </div>
+        </div>
+    </div>
+
+    <hr class='divider'>
+
+    <footer>
+        <p class="float-right"><a href="#top">Back To Top</a> </p>
+        <p>&copy; 2017 William Li</p>
+    </footer>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">About</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Moderen browser museum is a practice of building website using Bootstrap.Thank you for watching.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">More</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+        integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
